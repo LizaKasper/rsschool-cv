@@ -1,15 +1,13 @@
-.header {
-	top:20px;
+body {
+  background-color: lightblue;
 }
 
-.main {
-	padding-top:100px;
+h1 {
+  color: white;
+  text-align: center;
 }
 
-.posLeft {
-	margin-left:-66%;
-}
-
-.posCenter {
-	margin-left:33%;
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
