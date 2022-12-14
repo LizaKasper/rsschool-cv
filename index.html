@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Lizaveta Kaspiarovich</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Без названия.ico">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="header_list">
+          <li class="list_item">
+            <a href="#contacts" class="link-style">Contacts</a>
+          </li>
+          <li class="list_item">
+            <a href="#skills" class="link-style">Skills</a>
+          </li>
+          <li class="list_item">
+            <a href="#about" class="link-style">About me</a>
+          </li>
+          <li class="list_item">
+            <a href="#courses" class="link-style">Courses</a>
+          </li>
+          <li class="list_item">
+            <a href="#code" class="link-style">Code Example</a>
+          </li>
+          <li class="list_item">
+            <a href="#education" class="link-style">Education</a>
+          </li>
+          <li class="list_item">
+            <a href="#expirience" class="link-style">Expirience</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <aside class="left">
+          <br>
+          <p>
+            <img class="myphoto" src="photo_2022-12-13_11-12-30.jpg"
+              alt="Photo: Liza Kaspiarovich"
+              width="250">
+          </p>
+      <br>
+          <h2 class="left-header" id="contacts">Contacts</h2>
+      <br>
+          <ul class="li-1">
+            <li><b>Location: </b> Belarus, Minsk</li>
+            <li>
+              <b>Email: </b>
+              <a href="mailto:lizakasper08@gmail.com" class="link">lizakasper08@gmail.com</a>
+            </li>
+            <li>
+              <b>GitHub: </b>
+              <a href="https://github.com/LizaKasper" class="link">LizaKasper</a>
+            </li>
+            <li>
+              <b>Telegram: </b>
+              <a href="https://t.me/Liza_Kasper" class="link"> @Liza_Kasper</a>
+            </li>
+          </ul>
+          <h2 class="left-header" id="skills">Skills</h2>
+          <ul>
+            <li>HTML, CSS</li>
+            <li>Version control: Git, GitHub</li>
+            <li>
+              Knowledge of SDLC. Development methodologies. Software testing
+              classification
+            </li>
+            <li>Java (basic knowledge)</li>
+            <li>Database management: SQL</li>
+            <li>Bug tracking system: Jira</li>
+            <li>Test management system: Test Rail</li>
+          </ul>
+          <br>
+          <h2 class="left-header" id="english">English</h2>
+          <p>Intermediate+ (in progress)</p>
+        </aside>
+
+        <section class="right">
+          <h1 class="name">Lizaveta Kaspiarovich</h1>
+          <p class="junior">Frontend Developer</p>
+          <h2 class="right-header" id="about">About Me</h2>
+          <p>
+            I like to constantly evolve and improve in a professional
+            environment, seek for challenges and open for changes.
+          </p>
+          <br>
+          <h2 class="right-header" id="courses">Courses</h2>
+          <div class="text">
+            <p class="bold">Software Testing</p>
+            <p class="italic">Epam Learn, 2021</p>
+            <br>
+            <p class="bold">SQL</p>
+            <p class="italic">Sololearn, 2021</p>
+            <br>
+            <p class="bold">HTML, CSS</p>
+            <p class="italic">Stepik, 2021</p>
+          </div>
+          <br>
+          <h2 class="right-header" id="code">Code Example</h2>
+           <p>
+              Task: The program that increases your salary every month by $1000
+              using while/ do ... while, for. (All three implementations)
+            </p>
+            <div class="code_e">
+            <pre>
+           <code>
+      public static void main(String[] args) {
+        int salary = 1000;
+        int month;
+          for (month=1; month &gt;= 12; ++month) {
+            System.out.println(month + "month:" + " " + salary);
+            salary = salary + 1000;
+          }
+      }    </code></pre>
+          </div>
+          <p>
+            <b>
+              <a href="https://github.com/LizaKasper?tab=repositories"
+                style="color: #57514d">My GitHub Repository</a></b>
+          </p>
+          <br>
+          <h2 class="right-header" id="education">Education</h2>
+          <div class="education">
+            <p class="italic">2013 - 2018</p>
+            <p class="bold">Bachelor's Degree in Civil Engineering</p>
+            <p>BNTU, Minsk</p>
+            <br>
+          </div>
+          <h2 class="right-header" id="expirience">Expirience</h2>
+          <ul>
+            <li>
+              Civil Engineer. UE "ERMSIT" October 2020 - till nom
+              <ul class="expirience">
+                <li>
+                  Development of local and object estimates, summary estimates
+                  for all sectons of the project at the stage of an
+                  architectural and constraction project
+                </li>
+                <li>Business communications with contactors and customers</li>
+                <li>Passage of expertise</li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              Cost Engineer Design Institute "Voenproekt" August 2018 -
+              September 2020
+              <ul class="expirience">
+                <li>
+                  Development of local and object estimates, summary estimates
+                  for all sectons of the project at the stage of an
+                  architectural and constraction project
+                </li>
+                <li>Passage of expertise</li>
+                <li>Mentoring of new employees</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="rsslogo">
+        <a href="https://rs.school/js/" target="_blank" class="rsslogo"><img src="rs_school_js.svg" alt="Logo RS" width="100" height="100"></a>
+      </div>
+      <div class="footer_author">
+        <a href="https://github.com/LizaKasper" target="_blank" class="git"><img src="gitlogo.png" alt="My Repo" width="80"></a>
+      </div>
+      <p class="date">2022</p>
+    </footer>
+  </body>
+</html>
