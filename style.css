@@ -1,13 +1,179 @@
 body {
-  background-color: lightblue;
+  background: #ffff;
+  border-radius: 6px;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  text-align: left;
 }
 
-h1 {
-  color: white;
+header {
+  font-size: 18px;
+  list-style: none;
   text-align: center;
+  background: #57514D;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-p {
-  font-family: verdana;
+.list_item {
+
+  display: inline;
+  padding: 20px;
+
+}
+
+.link-style {
+  
+  text-decoration: none;
+  color: #F0F0F0;
+}
+
+section {
+  float: right;
+  width: 70%;
+}
+
+aside {
+  float: left;
+   width: 30%;
+}
+
+.container {
+ /* clear: both;
+  *zoom: 1;*/
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.left {
+  width: 30%;
+  background-color: #57514D;
+  color: #F0F0F0;
+  text-align: left;
+  line-height: 1.2;
+  padding: 20px 80px 0px 80px;
+  margin: 0 0 0 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.left-header {
+  font-size: 24px;
+  color:#F0F0F0;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+.right {
+  width: 70%;
+  background-color: #F0F0F0;
+  color: #57514D;
+  padding: 20px 40px 20px 40px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #57514D;
+  margin: 0 0 0 0;
+}
+
+.right-header {
+  font-size: 24px;
+  color:#57514D; 
+  letter-spacing: 2px;
+}
+
+.text {
+  line-height: 10px;
+  font-weight: 400;
+  margin: 15px auto;
+}
+
+.education {
+  line-height: 10px;
+  font-weight: 400;
+}
+.bold {
+  font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.expirience{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 15px auto;
+}
+
+.junior {
   font-size: 20px;
+  color:#57514D;
+  line-height: 2px;
+  margin-bottom: 50px;
+}
+
+.name {
+  font-size: 75px;
+  line-height: 80px;
+  font-weight: 600;
+  color:#57514D;
+  margin-bottom: 10px;
+}
+
+.link{
+  color: #F0F0F0;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.myphoto {
+  border-radius: 50%;
+}
+
+li {
+  padding-top: 5px;
+  letter-spacing: 1px;
+}
+
+.li-1{
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.code_e {
+  margin: 10px;
+  border: 1px solid #57514D;  
+}
+
+footer {
+  font-size: 20px;
+  background: #57514D;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  }
+
+
+.rsslogo{
+  justify-content: left;
+  padding-left: 20px;
+}
+
+.date {
+ padding-right: 50px;
+}
+
+.footer_author {
+  padding-top: 10px;
+  justify-content: center;
 }
